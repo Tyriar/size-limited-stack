@@ -32,18 +32,18 @@ console.log(stack.pop()); // undefined
 
 ## API
 
-### `SizeLimitedStack(int maxSize)`
+##### `SizeLimitedStack(int maxSize)`
 
 Create a size limited stack, setting the maximum size to `maxSize`.
 
-### `SizeLimitedStack.push(object value)`
+##### `SizeLimitedStack.push(object value)`
 
 Push `value` onto the stack, if the size threshold is hit a value is evicted from the _bottom_ of the stack.
 
-### `SizeLimitedStack.pop()`
+##### `SizeLimitedStack.pop()`
 
 Removes and returns the value on the top of the stack.
 
-### `SizeLimitedStack.setMaxSize(int maxSize)`
+##### `SizeLimitedStack.setMaxSize(int maxSize)`
 
 Sets the maximum size of the stack, evicting any elements exceeding the limit if necessary.
