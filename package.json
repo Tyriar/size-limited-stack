@@ -1,0 +1,30 @@
+{
+  "name": "size-limited-stack",
+  "version": "0.1.0",
+  "description": "A stack with a maximum size that evicts elements from the bottom when reached",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tyriar/size-limited-stack.git"
+  },
+  "keywords": [
+    "stack",
+    "data structure"
+  ],
+  "author": "Daniel Imms (http://www.growingwiththeweb.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tyriar/size-limited-stack/issues"
+  },
+  "homepage": "https://github.com/Tyriar/size-limited-stack",
+  "devDependencies": {
+    "ava": "^0.4.2",
+    "xo": "^0.10.1"
+  },
+  "xo": {
+    "space": true
+  }
+}
