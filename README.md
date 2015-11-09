@@ -2,7 +2,7 @@
 
 [![Build Status](http://img.shields.io/travis/Tyriar/size-limited-stack.svg?style=flat)](https://travis-ci.org/Tyriar/size-limited-stack)
 
-A stack with a maximum size that evicts elements from the bottom when reached. It features familiar interfaces and does not directly extend `Array.prototype` to prevent possible misuse.
+A stack with a maximum size that evicts elements from the bottom when reached. It features familiar interfaces but does not directly extend `Array.prototype` to prevent possible misuse.
 
 
 
