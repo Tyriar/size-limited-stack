@@ -1,9 +1,3 @@
-/**
- * @license
- * size-limited-stack <http://github.com/Tyriar/size-limited-stack>
- * Copyright 2015 Daniel Imms <http://www.growingwiththeweb.com>
- * Released under the MIT license <http://github.com/Tyriar/size-limited-stack/blob/master/LICENSE>
- */
 'use strict';
 
 module.exports = (function () {
