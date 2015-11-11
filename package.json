@@ -1,6 +1,6 @@
 {
   "name": "size-limited-stack",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A stack with a maximum size that evicts elements from the bottom when reached",
   "main": "index.js",
   "scripts": {
