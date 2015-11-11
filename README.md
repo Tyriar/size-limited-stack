@@ -4,15 +4,11 @@
 
 A stack with a maximum size that evicts elements from the bottom when reached. It features familiar interfaces but does not directly extend `Array.prototype` to prevent possible misuse.
 
-
-
 ## Install
 
-```
+```bash
 npm install --save size-limited-stack
 ```
-
-
 
 ## Usage
 
@@ -28,22 +24,36 @@ console.log(stack.pop()); // 2
 console.log(stack.pop()); // undefined
 ```
 
-
-
 ## API
 
-##### `SizeLimitedStack(int maxSize)`
+### SizeLimitedStack
 
-Create a size limited stack, setting the maximum size to `maxSize`.
+Create a SizeLimitedStack.
 
-##### `SizeLimitedStack.push(object value)`
+**Parameters**
 
-Push `value` onto the stack, if the size threshold is hit a value is evicted from the _bottom_ of the stack.
+-   `maxSize` **int** The maximum size of the stack.
 
-##### `SizeLimitedStack.pop()`
+#### pop
 
-Removes and returns the value on the top of the stack.
+Remove and return the value on the top of the stack.
 
-##### `SizeLimitedStack.setMaxSize(int maxSize)`
+Returns **object** The value from the top of the stack.
 
-Sets the maximum size of the stack, evicting any elements exceeding the limit if necessary.
+#### push
+
+Push a new value, if the size threshold is hit, a value is evicted from the
+<i>bottom</i> of the stack.
+
+**Parameters**
+
+-   `value` **object** The value to add.
+
+#### setMaxSize
+
+Sets the maximum size of the stack, evicting any elements exceeding the limit
+if necessary.
+
+**Parameters**
+
+-   `maxSize` **int** The new maximum size of the stack.

@@ -4,6 +4,7 @@
   "description": "A stack with a maximum size that evicts elements from the bottom when reached",
   "main": "index.js",
   "scripts": {
+    "documentation": "documentation-readme -s \"API\"",
     "test": "xo --space 2 && ava"
   },
   "repository": {
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/Tyriar/size-limited-stack",
   "devDependencies": {
     "ava": "^0.4.2",
+    "documentation-readme": "^2.1.0",
     "xo": "^0.10.1"
   }
 }
