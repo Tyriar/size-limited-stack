@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "doc": "documentation-readme -s \"API\"",
-    "test": "xo --space 2 && ava"
+    "test": "xo && ava"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
     "ava": "^0.4.2",
     "documentation-readme": "^2.1.0",
     "xo": "^0.10.1"
+  },
+  "xo": {
+    "space": 2
   }
 }
