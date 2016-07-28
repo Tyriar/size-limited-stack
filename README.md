@@ -1,6 +1,6 @@
-# size-limited-stack [![NPM version](http://img.shields.io/npm/v/size-limited-stack.svg?style=flat)](https://www.npmjs.org/package/size-limited-stack)
+# size-limited-stack
 
-[![Build Status](http://img.shields.io/travis/Tyriar/size-limited-stack.svg?style=flat)](https://travis-ci.org/Tyriar/size-limited-stack)
+[![Build Status](https://travis-ci.org/Tyriar/size-limited-stack.svg?branch=master)](https://travis-ci.org/Tyriar/size-limited-stack)
 
 A stack with a maximum size that evicts elements from the bottom when reached. It features familiar interfaces but does not directly extend `Array.prototype` to prevent possible misuse.
 
